@@ -1,0 +1,44 @@
+22:14:39 **** Build of configuration Debug for project ExemploSlide3 ****
+make all 
+Building file: ../src/ExemploSlide3.cu
+Invoking: NVCC Compiler
+/opt/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_50,code=sm_50  -odir "src" -M -o "src/ExemploSlide3.d" "../src/ExemploSlide3.cu"
+/opt/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_50,code=compute_50 -gencode arch=compute_50,code=sm_50  -x cu -o  "src/ExemploSlide3.o" "../src/ExemploSlide3.cu"
+Finished building: ../src/ExemploSlide3.cu
+ 
+Building target: ExemploSlide3
+Invoking: NVCC Linker
+/opt/cuda/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_50,code=compute_50 -gencode arch=compute_50,code=sm_50 -link -o  "ExemploSlide3"  ./src/ExemploSlide3.o   
+Finished building target: ExemploSlide3
+ 
+22:14:46 **** Incremental Build of configuration Debug for project ExemploSlide3 ****
+make all 
+make: Nothing to be done for 'all'.
+22:14:51 **** Incremental Build of configuration Debug for project ExemploSlide3 ****
+make all 
+make: Nothing to be done for 'all'.
+22:22:22 **** Incremental Build of configuration Debug for project ExemploSlide3 ****
+make all 
+make: Nothing to be done for 'all'.
+22:22:33 **** Incremental Build of configuration Debug for project ExemploSlide3 ****
+make all 
+make: Nothing to be done for 'all'.
+22:22:46 **** Incremental Build of configuration Debug for project ComutacaoMatrizes ****
+make all 
+make: Nothing to be done for 'all'.
+22:23:23 **** Incremental Build of configuration Debug for project ComutacaoMatrizes ****
+make all 
+Building file: ../src/ComutacaoMatrizes.cu
+Invoking: NVCC Compiler
+/opt/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_50,code=sm_50  -odir "src" -M -o "src/ComutacaoMatrizes.d" "../src/ComutacaoMatrizes.cu"
+/opt/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_50,code=compute_50 -gencode arch=compute_50,code=sm_50  -x cu -o  "src/ComutacaoMatrizes.o" "../src/ComutacaoMatrizes.cu"
+Finished building: ../src/ComutacaoMatrizes.cu
+ 
+Building target: ComutacaoMatrizes
+Invoking: NVCC Linker
+/opt/cuda/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_50,code=compute_50 -gencode arch=compute_50,code=sm_50 -link -o  "ComutacaoMatrizes"  ./src/ComutacaoMatrizes.o   
+Finished building target: ComutacaoMatrizes
+ 
+10:22:12 **** Incremental Build of configuration Debug for project ExemploSlide3 ****
+make all 
+make: Nothing to be done for 'all'.

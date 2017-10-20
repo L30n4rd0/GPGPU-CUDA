@@ -1,0 +1,16 @@
+15:55:37 **** Build of configuration Debug for project Teste2 ****
+make all 
+Building file: ../src/Teste2.cu
+Invoking: NVCC Compiler
+/opt/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_50,code=sm_50  -odir "src" -M -o "src/Teste2.d" "../src/Teste2.cu"
+/opt/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_50,code=compute_50 -gencode arch=compute_50,code=sm_50  -x cu -o  "src/Teste2.o" "../src/Teste2.cu"
+Finished building: ../src/Teste2.cu
+ 
+Building target: Teste2
+Invoking: NVCC Linker
+/opt/cuda/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_50,code=compute_50 -gencode arch=compute_50,code=sm_50 -link -o  "Teste2"  ./src/Teste2.o   
+Finished building target: Teste2
+ 
+
+15:55:39 Build Finished (took 1s.170ms)
+

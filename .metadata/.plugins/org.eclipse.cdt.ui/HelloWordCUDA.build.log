@@ -1,0 +1,6 @@
+16:01:47 **** Incremental Build of configuration Debug for project HelloWordCUDA ****
+make all 
+make: Nothing to be done for 'all'.
+
+16:01:47 Build Finished (took 72ms)
+
