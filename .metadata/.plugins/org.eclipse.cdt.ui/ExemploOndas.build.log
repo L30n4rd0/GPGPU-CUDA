@@ -8,3 +8,6 @@ Invoking: NVCC Compiler
 
 1 error detected in the compilation of "/tmp/tmpxft_000006e5_00000000-6_ExemploOndas.cpp1.ii".
 make: *** [src/subdir.mk:21: src/ExemploOndas.o] Error 1
+
+14:43:21 Build Finished (took 2s.729ms)
+

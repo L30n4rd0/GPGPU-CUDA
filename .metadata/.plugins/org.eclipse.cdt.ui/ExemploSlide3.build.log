@@ -1,6 +1,6 @@
-10:22:12 **** Incremental Build of configuration Debug for project ExemploSlide3 ****
+14:38:57 **** Incremental Build of configuration Debug for project ExemploSlide3 ****
 make all 
 make: Nothing to be done for 'all'.
 
-10:22:12 Build Finished (took 373ms)
+14:38:58 Build Finished (took 349ms)
 

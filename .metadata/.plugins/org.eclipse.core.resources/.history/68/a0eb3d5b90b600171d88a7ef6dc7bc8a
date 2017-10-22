@@ -1,0 +1,40 @@
+/*
+ ============================================================================
+ Name        : ExemploOndas.cu
+ Author      : Leonardo
+ Version     :
+ Copyright   : Your copyright notice
+ Description : CUDA compute reciprocals
+ ============================================================================
+ */
+
+#include <iostream>
+#include <numeric>
+#include <stdlib.h>
+
+struct DataBlock {
+	unsigned char *dev_bitmap;
+	CPUAnimBitmap *bitmap;
+};
+
+void cleanup(DataBlock *d) {
+	cudaFree(d->dev_bitmap);
+}
+
+void generate_frame(DataBlock *d, int ticks) {
+	dim3 blocks(DIM/16, DIM/16);
+	dim3 threads(16,16);
+	kernel<<<blocks,threads>>> ()
+}
+
+int main(void)
+{
+	DataBlock data;
+	CPUAnimBitmap bitmap(DIM, DIM, &data);
+	data.bitmap = &bitmap;
+	cudaMalloc((void**) &data.dev_bitmap, bitmap.image_size());
+	bitmap.anim_and_exit((void (*)(void*, int)) generate_frame, (void (*)(void*))cleanup);
+
+	return 0;
+}
+
