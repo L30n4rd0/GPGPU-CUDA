@@ -1,10 +1,15 @@
-14:43:18 **** Incremental Build of configuration Debug for project ExemploOndas ****
+23:31:56 **** Incremental Build of configuration Debug for project TestC ****
 make all 
-Building file: ../src/ExemploOndas.cu
-Invoking: NVCC Compiler
-/opt/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_50,code=sm_50  -odir "src" -M -o "src/ExemploOndas.d" "../src/ExemploOndas.cu"
-/opt/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_50,code=compute_50 -gencode arch=compute_50,code=sm_50  -x cu -o  "src/ExemploOndas.o" "../src/ExemploOndas.cu"
-../src/ExemploOndas.cu(17): error: identifier "CPUAnimBitmap" is undefined
-
-1 error detected in the compilation of "/tmp/tmpxft_000006e5_00000000-6_ExemploOndas.cpp1.ii".
-make: *** [src/subdir.mk:21: src/ExemploOndas.o] Error 1
+Building file: ../src/TestC.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TestC.d" -MT"src/TestC.d" -o "src/TestC.o" "../src/TestC.c"
+../src/TestC.c: In function ‘matrix’:
+../src/TestC.c:20:9: warning: return makes integer from pointer without a cast [-Wint-conversion]
+  return matrixA;
+         ^~~~~~~
+../src/TestC.c:20:9: warning: function returns address of local variable [-Wreturn-local-addr]
+../src/TestC.c: In function ‘main’:
+../src/TestC.c:27:19: error: invalid initializer
+  int test[N][N] = matrix();
+                   ^~~~~~
+make: *** [src/subdir.mk:20: src/TestC.o] Error 1

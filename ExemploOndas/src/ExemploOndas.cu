@@ -11,6 +11,12 @@
 #include <iostream>
 #include <numeric>
 #include <stdlib.h>
+#include "./common/book.h"
+#include "./common/cpu_anim.h"
+#include "./common/gpu_anim.h"
+#include "./common/cpu_bitmap.h"
+
+#define DIM 1024
 
 struct DataBlock {
 	unsigned char *dev_bitmap;

@@ -6,6 +6,9 @@
 CU_SRCS += \
 ../src/ExemploSlide2.cu 
 
+O_SRCS += \
+../src/ExemploSlide2.o 
+
 OBJS += \
 ./src/ExemploSlide2.o 
 

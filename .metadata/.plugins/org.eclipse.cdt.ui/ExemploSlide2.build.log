@@ -1,16 +1,6 @@
-18:29:45 **** Build of configuration Debug for project ExemploSlide2 ****
+15:56:31 **** Incremental Build of configuration Debug for project ExemploSlide2 ****
 make all 
-Building file: ../src/ExemploSlide2.cu
-Invoking: NVCC Compiler
-/opt/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_50,code=sm_50  -odir "src" -M -o "src/ExemploSlide2.d" "../src/ExemploSlide2.cu"
-/opt/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_50,code=compute_50 -gencode arch=compute_50,code=sm_50  -x cu -o  "src/ExemploSlide2.o" "../src/ExemploSlide2.cu"
-Finished building: ../src/ExemploSlide2.cu
- 
-Building target: ExemploSlide2
-Invoking: NVCC Linker
-/opt/cuda/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_50,code=compute_50 -gencode arch=compute_50,code=sm_50 -link -o  "ExemploSlide2"  ./src/ExemploSlide2.o   
-Finished building target: ExemploSlide2
- 
+make: Nothing to be done for 'all'.
 
-18:29:46 Build Finished (took 1s.218ms)
+15:56:32 Build Finished (took 68ms)
 

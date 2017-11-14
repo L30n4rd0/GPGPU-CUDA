@@ -1,13 +1,44 @@
-14:43:18 **** Incremental Build of configuration Debug for project ExemploOndas ****
+18:10:55 **** Incremental Build of configuration Debug for project ExemploOndas ****
 make all 
 Building file: ../src/ExemploOndas.cu
 Invoking: NVCC Compiler
 /opt/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_50,code=sm_50  -odir "src" -M -o "src/ExemploOndas.d" "../src/ExemploOndas.cu"
 /opt/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_50,code=compute_50 -gencode arch=compute_50,code=sm_50  -x cu -o  "src/ExemploOndas.o" "../src/ExemploOndas.cu"
-../src/ExemploOndas.cu(17): error: identifier "CPUAnimBitmap" is undefined
+../src/./common/cpu_anim.h(61): warning: conversion from a string literal to "char *" is deprecated
 
-1 error detected in the compilation of "/tmp/tmpxft_000006e5_00000000-6_ExemploOndas.cpp1.ii".
-make: *** [src/subdir.mk:21: src/ExemploOndas.o] Error 1
+../src/./common/gpu_anim.h(61): warning: conversion from a string literal to "char *" is deprecated
 
-14:43:21 Build Finished (took 2s.729ms)
+../src/./common/cpu_bitmap.h(49): warning: conversion from a string literal to "char *" is deprecated
+
+../src/./common/cpu_anim.h(61): warning: conversion from a string literal to "char *" is deprecated
+
+../src/./common/gpu_anim.h(61): warning: conversion from a string literal to "char *" is deprecated
+
+../src/./common/cpu_bitmap.h(49): warning: conversion from a string literal to "char *" is deprecated
+
+Finished building: ../src/ExemploOndas.cu
+ 
+Building target: ExemploOndas
+Invoking: NVCC Linker
+/opt/cuda/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_50,code=compute_50 -gencode arch=compute_50,code=sm_50 -link -o  "ExemploOndas"  ./src/ExemploOndas.o   
+./src/ExemploOndas.o: In function `CPUAnimBitmap::anim_and_exit(void (*)(void*, int), void (*)(void*))':
+/home/leonardo/workspace/workspaceCUDA/GPGPU-CUDA/ExemploOndas/Debug/../src/./common/cpu_anim.h:62: undefined reference to `glutInit'
+/home/leonardo/workspace/workspaceCUDA/GPGPU-CUDA/ExemploOndas/Debug/../src/./common/cpu_anim.h:63: undefined reference to `glutInitDisplayMode'
+/home/leonardo/workspace/workspaceCUDA/GPGPU-CUDA/ExemploOndas/Debug/../src/./common/cpu_anim.h:64: undefined reference to `glutInitWindowSize'
+/home/leonardo/workspace/workspaceCUDA/GPGPU-CUDA/ExemploOndas/Debug/../src/./common/cpu_anim.h:65: undefined reference to `glutCreateWindow'
+/home/leonardo/workspace/workspaceCUDA/GPGPU-CUDA/ExemploOndas/Debug/../src/./common/cpu_anim.h:66: undefined reference to `glutKeyboardFunc'
+/home/leonardo/workspace/workspaceCUDA/GPGPU-CUDA/ExemploOndas/Debug/../src/./common/cpu_anim.h:67: undefined reference to `glutDisplayFunc'
+/home/leonardo/workspace/workspaceCUDA/GPGPU-CUDA/ExemploOndas/Debug/../src/./common/cpu_anim.h:69: undefined reference to `glutMouseFunc'
+/home/leonardo/workspace/workspaceCUDA/GPGPU-CUDA/ExemploOndas/Debug/../src/./common/cpu_anim.h:70: undefined reference to `glutIdleFunc'
+/home/leonardo/workspace/workspaceCUDA/GPGPU-CUDA/ExemploOndas/Debug/../src/./common/cpu_anim.h:71: undefined reference to `glutMainLoop'
+./src/ExemploOndas.o: In function `CPUAnimBitmap::idle_func()':
+/home/leonardo/workspace/workspaceCUDA/GPGPU-CUDA/ExemploOndas/Debug/../src/./common/cpu_anim.h:102: undefined reference to `glutPostRedisplay'
+./src/ExemploOndas.o: In function `CPUAnimBitmap::Draw()':
+/home/leonardo/workspace/workspaceCUDA/GPGPU-CUDA/ExemploOndas/Debug/../src/./common/cpu_anim.h:119: undefined reference to `glClearColor'
+/home/leonardo/workspace/workspaceCUDA/GPGPU-CUDA/ExemploOndas/Debug/../src/./common/cpu_anim.h:120: undefined reference to `glClear'
+/home/leonardo/workspace/workspaceCUDA/GPGPU-CUDA/ExemploOndas/Debug/../src/./common/cpu_anim.h:121: undefined reference to `glDrawPixels'
+/home/leonardo/workspace/workspaceCUDA/GPGPU-CUDA/ExemploOndas/Debug/../src/./common/cpu_anim.h:122: undefined reference to `glutSwapBuffers'
+make: *** [makefile:61: ExemploOndas] Error 1
+
+18:10:56 Build Finished (took 1s.516ms)
 

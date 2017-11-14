@@ -14,23 +14,58 @@
 
 #define N 2
 
-__global__ void commutative (int **matrixA, int **matrixB, int *result) {
+__device__ int **product(int **matrixA, int **matrixB){
 
-	int ab[N][N], ba[N][N];
+	int blockId = blockIdx.x;
+	int threadId = threadIdx.x;
 
-	int tid = blockIdx.x;
-	int tid2 = blockIdx.y;
+	int matrixResult[N][N];
 
-	if (tid < N) {
-		if (tid2) {
+//	memset(C ,0 ,sizeof(int) * N * N);
 
-			ab[tid][tid2] =
+	if(blockId < N && threadId < N){
+
+		for (int k = 0; k < N; k++) {
+
+//			C[xid * N + yid] += A[xid * N + k] * B[k * N + yid];
 
 		}
 
 	}
 
-	result[0] = matrixA[0][0] + matrixB[0][0];
+	return matrixResult;
+
+}
+
+__device__ int compare(int **matrixA, int **matrixB){
+
+	int result = 1;
+
+	int blockId = blockIdx.x;
+	int threadId = threadIdx.x;
+
+	if(blockId < N && threadId < N){
+
+		if( matrixA[blockId][threadId] != matrixB[blockId][threadId] ) {
+			result = 0;
+
+		}
+
+	}
+
+	return result;
+
+}
+
+__global__ void commutative (int **matrixA, int **matrixB, int *result) {
+
+	int ab[N][N], ba[N][N];
+
+	ab = product(matrixA, matrixB);
+
+	ba = product(matrixB, matrixA);
+
+	result[0] = compare(ab, ba);
 
 }
 
@@ -56,7 +91,7 @@ int main(void)
 	cudaMemcpy(dev_matrixA, matrixA, N * N * sizeof(int), cudaMemcpyHostToDevice);
 	cudaMemcpy(dev_matrixB, matrixB, N * N * sizeof(int), cudaMemcpyHostToDevice);
 
-	commutative<<<(N * N), 1>>>(dev_matrixA, dev_matrixB, dev_result);
+	commutative<<<N, N>>>(dev_matrixA, dev_matrixB, dev_result);
 
 	cudaMemcpy(&result, dev_result, sizeof(int), cudaMemcpyDeviceToHost);
 
