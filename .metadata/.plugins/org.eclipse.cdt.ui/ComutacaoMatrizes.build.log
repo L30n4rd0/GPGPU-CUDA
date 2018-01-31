@@ -1,21 +1,6 @@
-18:59:48 **** Incremental Build of configuration Debug for project ComutacaoMatrizes ****
+01:41:21 **** Incremental Build of configuration Debug for project ComutacaoMatrizes ****
 make all 
-Building file: ../src/ComutacaoMatrizes.cu
-Invoking: NVCC Compiler
-/opt/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_50,code=sm_50  -odir "src" -M -o "src/ComutacaoMatrizes.d" "../src/ComutacaoMatrizes.cu"
-/opt/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_50,code=compute_50 -gencode arch=compute_50,code=sm_50  -x cu -o  "src/ComutacaoMatrizes.o" "../src/ComutacaoMatrizes.cu"
-../src/ComutacaoMatrizes.cu(36): error: return value type does not match the function type
+make: Nothing to be done for 'all'.
 
-../src/ComutacaoMatrizes.cu(64): error: expression must be a modifiable lvalue
-
-../src/ComutacaoMatrizes.cu(66): error: expression must be a modifiable lvalue
-
-../src/ComutacaoMatrizes.cu(68): error: argument of type "int (*)[2]" is incompatible with parameter of type "int **"
-
-../src/ComutacaoMatrizes.cu(68): error: argument of type "int (*)[2]" is incompatible with parameter of type "int **"
-
-5 errors detected in the compilation of "/tmp/tmpxft_00003e8f_00000000-6_ComutacaoMatrizes.cpp1.ii".
-make: *** [src/subdir.mk:21: src/ComutacaoMatrizes.o] Error 1
-
-18:59:49 Build Finished (took 469ms)
+01:41:22 Build Finished (took 57ms)
 

@@ -314,8 +314,8 @@
 <definedSymbol symbol="__ELF__=1"/>
 <definedSymbol symbol="__DECIMAL_BID_FORMAT__=1"/>
 <definedSymbol symbol="_GNU_SOURCE=1"/>
-<definedSymbol symbol="__CUDACC_VER_BUILD__=176"/>
-<definedSymbol symbol="__CUDACC_VER_MINOR__=0"/>
+<definedSymbol symbol="__CUDACC_VER_BUILD__=85"/>
+<definedSymbol symbol="__CUDACC_VER_MINOR__=1"/>
 <definedSymbol symbol="__CUDACC_VER_MAJOR__=9"/>
 <definedSymbol symbol="_STDC_PREDEF_H=1"/>
 <definedSymbol symbol="__STDC_IEC_559__=1"/>
@@ -638,8 +638,8 @@
 <definedSymbol symbol="__ELF__=1"/>
 <definedSymbol symbol="__DECIMAL_BID_FORMAT__=1"/>
 <definedSymbol symbol="_GNU_SOURCE=1"/>
-<definedSymbol symbol="__CUDACC_VER_BUILD__=176"/>
-<definedSymbol symbol="__CUDACC_VER_MINOR__=0"/>
+<definedSymbol symbol="__CUDACC_VER_BUILD__=85"/>
+<definedSymbol symbol="__CUDACC_VER_MINOR__=1"/>
 <definedSymbol symbol="__CUDACC_VER_MAJOR__=9"/>
 <definedSymbol symbol="_STDC_PREDEF_H=1"/>
 <definedSymbol symbol="__STDC_IEC_559__=1"/>
@@ -962,8 +962,8 @@
 <definedSymbol symbol="__ELF__=1"/>
 <definedSymbol symbol="__DECIMAL_BID_FORMAT__=1"/>
 <definedSymbol symbol="_GNU_SOURCE=1"/>
-<definedSymbol symbol="__CUDACC_VER_BUILD__=176"/>
-<definedSymbol symbol="__CUDACC_VER_MINOR__=0"/>
+<definedSymbol symbol="__CUDACC_VER_BUILD__=85"/>
+<definedSymbol symbol="__CUDACC_VER_MINOR__=1"/>
 <definedSymbol symbol="__CUDACC_VER_MAJOR__=9"/>
 <definedSymbol symbol="_STDC_PREDEF_H=1"/>
 <definedSymbol symbol="__STDC_IEC_559__=1"/>

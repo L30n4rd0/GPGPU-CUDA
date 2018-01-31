@@ -1,15 +1,150 @@
-23:31:56 **** Incremental Build of configuration Debug for project TestC ****
+01:10:42 **** Incremental Build of configuration Debug for project GetPropitiesDevices ****
 make all 
-Building file: ../src/TestC.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TestC.d" -MT"src/TestC.d" -o "src/TestC.o" "../src/TestC.c"
-../src/TestC.c: In function ‘matrix’:
-../src/TestC.c:20:9: warning: return makes integer from pointer without a cast [-Wint-conversion]
-  return matrixA;
-         ^~~~~~~
-../src/TestC.c:20:9: warning: function returns address of local variable [-Wreturn-local-addr]
-../src/TestC.c: In function ‘main’:
-../src/TestC.c:27:19: error: invalid initializer
-  int test[N][N] = matrix();
-                   ^~~~~~
-make: *** [src/subdir.mk:20: src/TestC.o] Error 1
+make: Nothing to be done for 'all'.
+01:10:47 **** Incremental Build of configuration Debug for project GetPropitiesDevices ****
+make all 
+make: Nothing to be done for 'all'.
+16:39:40 **** Incremental Build of configuration Debug for project GetPropitiesDevices ****
+make all 
+make: Nothing to be done for 'all'.
+16:44:11 **** Incremental Build of configuration Debug for project TestC ****
+make all 
+make: Nothing to be done for 'all'.
+16:46:39 **** Incremental Build of configuration Debug for project ExemploSlide2 ****
+make all 
+make: Nothing to be done for 'all'.
+16:47:08 **** Incremental Build of configuration Debug for project ExemploSlide3 ****
+make all 
+make: Nothing to be done for 'all'.
+20:25:54 **** Incremental Build of configuration Debug for project TestC ****
+make all 
+make: Nothing to be done for 'all'.
+00:18:21 **** Incremental Build of configuration Debug for project ComutacaoMatrizes ****
+make all 
+Building file: ../src/ComutacaoMatrizes.cu
+Invoking: NVCC Compiler
+/opt/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_50,code=sm_50  -odir "src" -M -o "src/ComutacaoMatrizes.d" "../src/ComutacaoMatrizes.cu"
+/opt/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_50,code=compute_50 -gencode arch=compute_50,code=sm_50  -x cu -o  "src/ComutacaoMatrizes.o" "../src/ComutacaoMatrizes.cu"
+../src/ComutacaoMatrizes.cu(47): warning: variable "dev_matrixB" is used before its value is set
+
+ptxas fatal   : Unresolved extern function 'cudaFree'
+make: *** [src/subdir.mk:21: src/ComutacaoMatrizes.o] Error 255
+00:58:30 **** Incremental Build of configuration Debug for project ComutacaoMatrizes ****
+make all 
+Building file: ../src/ComutacaoMatrizes.cu
+Invoking: NVCC Compiler
+/opt/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_50,code=sm_50  -odir "src" -M -o "src/ComutacaoMatrizes.d" "../src/ComutacaoMatrizes.cu"
+/opt/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_50,code=compute_50 -gencode arch=compute_50,code=sm_50  -x cu -o  "src/ComutacaoMatrizes.o" "../src/ComutacaoMatrizes.cu"
+../src/ComutacaoMatrizes.cu(163): error: identifier "dev_matrix" is undefined
+
+../src/ComutacaoMatrizes.cu(167): error: identifier "dev_matrix" is undefined
+
+2 errors detected in the compilation of "/tmp/tmpxft_0000550e_00000000-6_ComutacaoMatrizes.cpp1.ii".
+make: *** [src/subdir.mk:21: src/ComutacaoMatrizes.o] Error 1
+01:23:07 **** Incremental Build of configuration Debug for project ComutacaoMatrizes ****
+make all 
+Building file: ../src/ComutacaoMatrizes.cu
+Invoking: NVCC Compiler
+/opt/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_50,code=sm_50  -odir "src" -M -o "src/ComutacaoMatrizes.d" "../src/ComutacaoMatrizes.cu"
+/opt/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_50,code=compute_50 -gencode arch=compute_50,code=sm_50  -x cu -o  "src/ComutacaoMatrizes.o" "../src/ComutacaoMatrizes.cu"
+../src/ComutacaoMatrizes.cu(160): error: identifier "dev_matrix" is undefined
+
+../src/ComutacaoMatrizes.cu(164): error: identifier "dev_matrix" is undefined
+
+2 errors detected in the compilation of "/tmp/tmpxft_00006172_00000000-6_ComutacaoMatrizes.cpp1.ii".
+make: *** [src/subdir.mk:21: src/ComutacaoMatrizes.o] Error 1
+01:25:23 **** Incremental Build of configuration Debug for project ComutacaoMatrizes ****
+make all 
+Building file: ../src/ComutacaoMatrizes.cu
+Invoking: NVCC Compiler
+/opt/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_50,code=sm_50  -odir "src" -M -o "src/ComutacaoMatrizes.d" "../src/ComutacaoMatrizes.cu"
+/opt/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_50,code=compute_50 -gencode arch=compute_50,code=sm_50  -x cu -o  "src/ComutacaoMatrizes.o" "../src/ComutacaoMatrizes.cu"
+../src/ComutacaoMatrizes.cu(166): error: identifier "dev_matrix" is undefined
+
+1 error detected in the compilation of "/tmp/tmpxft_0000626f_00000000-6_ComutacaoMatrizes.cpp1.ii".
+make: *** [src/subdir.mk:21: src/ComutacaoMatrizes.o] Error 1
+01:25:43 **** Incremental Build of configuration Debug for project ComutacaoMatrizes ****
+make all 
+Building file: ../src/ComutacaoMatrizes.cu
+Invoking: NVCC Compiler
+/opt/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_50,code=sm_50  -odir "src" -M -o "src/ComutacaoMatrizes.d" "../src/ComutacaoMatrizes.cu"
+/opt/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_50,code=compute_50 -gencode arch=compute_50,code=sm_50  -x cu -o  "src/ComutacaoMatrizes.o" "../src/ComutacaoMatrizes.cu"
+ptxas fatal   : Unresolved extern function 'cudaFree'
+make: *** [src/subdir.mk:21: src/ComutacaoMatrizes.o] Error 255
+01:32:16 **** Build of configuration Debug for project ComutacaoMatrizes2 ****
+make all 
+Building file: ../src/ComutacaoMatrizes2.cu
+Invoking: NVCC Compiler
+/opt/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_50,code=sm_50  -odir "src" -M -o "src/ComutacaoMatrizes2.d" "../src/ComutacaoMatrizes2.cu"
+/opt/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_50,code=compute_50 -gencode arch=compute_50,code=sm_50  -x cu -o  "src/ComutacaoMatrizes2.o" "../src/ComutacaoMatrizes2.cu"
+Finished building: ../src/ComutacaoMatrizes2.cu
+ 
+Building target: ComutacaoMatrizes2
+Invoking: NVCC Linker
+/opt/cuda/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_50,code=compute_50 -gencode arch=compute_50,code=sm_50 -link -o  "ComutacaoMatrizes2"  ./src/ComutacaoMatrizes2.o   
+Finished building target: ComutacaoMatrizes2
+ 
+01:32:19 **** Incremental Build of configuration Debug for project ComutacaoMatrizes2 ****
+make all 
+make: Nothing to be done for 'all'.
+01:36:44 **** Incremental Build of configuration Debug for project ComutacaoMatrizes2 ****
+make all 
+Building file: ../src/ComutacaoMatrizes2.cu
+Invoking: NVCC Compiler
+/opt/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_50,code=sm_50  -odir "src" -M -o "src/ComutacaoMatrizes2.d" "../src/ComutacaoMatrizes2.cu"
+/opt/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_50,code=compute_50 -gencode arch=compute_50,code=sm_50  -x cu -o  "src/ComutacaoMatrizes2.o" "../src/ComutacaoMatrizes2.cu"
+ptxas fatal   : Unresolved extern function 'cudaFree'
+make: *** [src/subdir.mk:21: src/ComutacaoMatrizes2.o] Error 255
+01:37:25 **** Incremental Build of configuration Debug for project ComutacaoMatrizes2 ****
+make all 
+Building file: ../src/ComutacaoMatrizes2.cu
+Invoking: NVCC Compiler
+/opt/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_50,code=sm_50  -odir "src" -M -o "src/ComutacaoMatrizes2.d" "../src/ComutacaoMatrizes2.cu"
+/opt/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_50,code=compute_50 -gencode arch=compute_50,code=sm_50  -x cu -o  "src/ComutacaoMatrizes2.o" "../src/ComutacaoMatrizes2.cu"
+ptxas fatal   : Unresolved extern function 'cudaFree'
+make: *** [src/subdir.mk:21: src/ComutacaoMatrizes2.o] Error 255
+01:39:42 **** Incremental Build of configuration Debug for project ComutacaoMatrizes2 ****
+make all 
+Building file: ../src/ComutacaoMatrizes2.cu
+Invoking: NVCC Compiler
+/opt/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_50,code=sm_50  -odir "src" -M -o "src/ComutacaoMatrizes2.d" "../src/ComutacaoMatrizes2.cu"
+/opt/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_50,code=compute_50 -gencode arch=compute_50,code=sm_50  -x cu -o  "src/ComutacaoMatrizes2.o" "../src/ComutacaoMatrizes2.cu"
+../src/ComutacaoMatrizes2.cu(133): warning: variable "row" was declared but never referenced
+
+../src/ComutacaoMatrizes2.cu(133): warning: variable "row" was declared but never referenced
+
+Finished building: ../src/ComutacaoMatrizes2.cu
+ 
+Building target: ComutacaoMatrizes2
+Invoking: NVCC Linker
+/opt/cuda/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_50,code=compute_50 -gencode arch=compute_50,code=sm_50 -link -o  "ComutacaoMatrizes2"  ./src/ComutacaoMatrizes2.o   
+Finished building target: ComutacaoMatrizes2
+ 
+01:40:58 **** Incremental Build of configuration Debug for project ComutacaoMatrizes ****
+make all 
+Building file: ../src/ComutacaoMatrizes.cu
+Invoking: NVCC Compiler
+/opt/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_50,code=sm_50  -odir "src" -M -o "src/ComutacaoMatrizes.d" "../src/ComutacaoMatrizes.cu"
+/opt/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_50,code=compute_50 -gencode arch=compute_50,code=sm_50  -x cu -o  "src/ComutacaoMatrizes.o" "../src/ComutacaoMatrizes.cu"
+ptxas fatal   : Unresolved extern function 'cudaFree'
+make: *** [src/subdir.mk:21: src/ComutacaoMatrizes.o] Error 255
+01:41:16 **** Incremental Build of configuration Debug for project ComutacaoMatrizes ****
+make all 
+Building file: ../src/ComutacaoMatrizes.cu
+Invoking: NVCC Compiler
+/opt/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_50,code=sm_50  -odir "src" -M -o "src/ComutacaoMatrizes.d" "../src/ComutacaoMatrizes.cu"
+/opt/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_50,code=compute_50 -gencode arch=compute_50,code=sm_50  -x cu -o  "src/ComutacaoMatrizes.o" "../src/ComutacaoMatrizes.cu"
+../src/ComutacaoMatrizes.cu(131): warning: variable "row" was declared but never referenced
+
+../src/ComutacaoMatrizes.cu(131): warning: variable "row" was declared but never referenced
+
+Finished building: ../src/ComutacaoMatrizes.cu
+ 
+Building target: ComutacaoMatrizes
+Invoking: NVCC Linker
+/opt/cuda/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_50,code=compute_50 -gencode arch=compute_50,code=sm_50 -link -o  "ComutacaoMatrizes"  ./src/ComutacaoMatrizes.o   
+Finished building target: ComutacaoMatrizes
+ 
+01:41:21 **** Incremental Build of configuration Debug for project ComutacaoMatrizes ****
+make all 
+make: Nothing to be done for 'all'.

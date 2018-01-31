@@ -1,16 +1,6 @@
-16:05:46 **** Incremental Build of configuration Debug for project HelloWorld ****
+01:10:18 **** Incremental Build of configuration Release for project HelloWorld ****
 make all 
-Building file: ../src/HelloWorld.cu
-Invoking: NVCC Compiler
-/opt/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_50,code=sm_50  -odir "src" -M -o "src/HelloWorld.d" "../src/HelloWorld.cu"
-/opt/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_50,code=compute_50 -gencode arch=compute_50,code=sm_50  -x cu -o  "src/HelloWorld.o" "../src/HelloWorld.cu"
-Finished building: ../src/HelloWorld.cu
- 
-Building target: HelloWorld
-Invoking: NVCC Linker
-/opt/cuda/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_50,code=compute_50 -gencode arch=compute_50,code=sm_50 -link -o  "HelloWorld"  ./src/HelloWorld.o   
-Finished building target: HelloWorld
- 
+make: Nothing to be done for 'all'.
 
-16:05:47 Build Finished (took 1s.61ms)
+01:10:18 Build Finished (took 109ms)
 

@@ -32,6 +32,7 @@
 								<inputType id="nvcc.compiler.input.c.1261029195" superClass="nvcc.compiler.input.c"/>
 							</tool>
 							<tool id="nvcc.linker.base.542634170" name="NVCC Linker" superClass="nvcc.linker.base">
+								<option id="nvcc.linker.option.linkgl.1278174518" superClass="nvcc.linker.option.linkgl" value="true" valueType="boolean"/>
 								<inputType id="nvcc.linker.input.1753940432" superClass="nvcc.linker.input">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
 									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
@@ -53,6 +54,7 @@
 					<sass major="5" minor="0"/>
 					<ptx major="5" minor="0"/>
 				</executable>
+				<editor-arch major="5" minor="0"/>
 			</storageModule>
 			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
 		</cconfiguration>
@@ -128,4 +130,13 @@
 		</scannerConfigBuildInfo>
 	</storageModule>
 	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Debug">
+			<resource resourceType="PROJECT" workspacePath="/ExemploOndas"/>
+		</configuration>
+		<configuration configurationName="Release">
+			<resource resourceType="PROJECT" workspacePath="/ExemploOndas"/>
+		</configuration>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
 </cproject>

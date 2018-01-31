@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<list key="installedFeatures">
-		<item value="com.nvidia.cuda.ide.feature:9.0.0.201709021121"/>
+		<item value="com.nvidia.cuda.ide.feature:9.1.0.201711040225"/>
 		<item value="org.eclipse.cdt.build.crossgcc:8.4.0.201406111759"/>
 		<item value="org.eclipse.cdt.gdb:8.5.0.201409172108"/>
 		<item value="org.eclipse.cdt.launch.remote:8.5.0.201409172108"/>
@@ -22,4 +22,11 @@
 		<item value="org.eclipse.rse.terminals:1.2.100.201406060905"/>
 		<item value="org.eclipse.tm.terminal:3.2.300.201406060905"/>
 	</list>
+	<section name="CleanDialogSettings">
+		<item value="729" key="DIALOG_WIDTH"/>
+		<item value="false" key="TOGGLE_SELECTED"/>
+		<item value="422" key="DIALOG_HEIGHT"/>
+		<item value="598" key="DIALOG_X_ORIGIN"/>
+		<item value="280" key="DIALOG_Y_ORIGIN"/>
+	</section>
 </section>
