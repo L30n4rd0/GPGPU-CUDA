@@ -1,6 +1,6 @@
-01:10:16 **** Incremental Build of configuration Debug for project ExemploOndas ****
+19:52:55 **** Incremental Build of configuration Debug for project ExemploOndas ****
 make all 
 make: Nothing to be done for 'all'.
 
-01:10:16 Build Finished (took 122ms)
+19:52:55 Build Finished (took 59ms)
 

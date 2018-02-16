@@ -6,10 +6,10 @@
 <stringAttribute key="org.eclipse.cdt.launch.DEBUGGER_ID" value="com.nvidia.cuda.ide.debug.cudagdb"/>
 <stringAttribute key="org.eclipse.cdt.launch.DEBUGGER_START_MODE" value="run"/>
 <stringAttribute key="org.eclipse.cdt.launch.PROGRAM_NAME" value="${config_name:GetPropitiesDevices}/GetPropitiesDevices"/>
-<stringAttribute key="org.eclipse.cdt.launch.PROJECT_ATTR" value="GetPropitiesDevices"/>
+<stringAttribute key="org.eclipse.cdt.launch.PROJECT_ATTR" value="Aula2_DevicesPropities.cu"/>
 <stringAttribute key="org.eclipse.cdt.launch.PROJECT_BUILD_CONFIG_ID_ATTR" value="com.nvidia.cuda.ide.on_path.configuration.debug.940920126"/>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-<listEntry value="/GetPropitiesDevices"/>
+<listEntry value="/Aula2_DevicesPropities.cu"/>
 </listAttribute>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
 <listEntry value="4"/>

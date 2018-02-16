@@ -1,150 +1,343 @@
-01:10:42 **** Incremental Build of configuration Debug for project GetPropitiesDevices ****
-make all 
-make: Nothing to be done for 'all'.
-01:10:47 **** Incremental Build of configuration Debug for project GetPropitiesDevices ****
-make all 
-make: Nothing to be done for 'all'.
-16:39:40 **** Incremental Build of configuration Debug for project GetPropitiesDevices ****
-make all 
-make: Nothing to be done for 'all'.
-16:44:11 **** Incremental Build of configuration Debug for project TestC ****
-make all 
-make: Nothing to be done for 'all'.
-16:46:39 **** Incremental Build of configuration Debug for project ExemploSlide2 ****
-make all 
-make: Nothing to be done for 'all'.
-16:47:08 **** Incremental Build of configuration Debug for project ExemploSlide3 ****
-make all 
-make: Nothing to be done for 'all'.
-20:25:54 **** Incremental Build of configuration Debug for project TestC ****
-make all 
-make: Nothing to be done for 'all'.
-00:18:21 **** Incremental Build of configuration Debug for project ComutacaoMatrizes ****
-make all 
-Building file: ../src/ComutacaoMatrizes.cu
-Invoking: NVCC Compiler
-/opt/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_50,code=sm_50  -odir "src" -M -o "src/ComutacaoMatrizes.d" "../src/ComutacaoMatrizes.cu"
-/opt/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_50,code=compute_50 -gencode arch=compute_50,code=sm_50  -x cu -o  "src/ComutacaoMatrizes.o" "../src/ComutacaoMatrizes.cu"
-../src/ComutacaoMatrizes.cu(47): warning: variable "dev_matrixB" is used before its value is set
-
-ptxas fatal   : Unresolved extern function 'cudaFree'
-make: *** [src/subdir.mk:21: src/ComutacaoMatrizes.o] Error 255
-00:58:30 **** Incremental Build of configuration Debug for project ComutacaoMatrizes ****
-make all 
-Building file: ../src/ComutacaoMatrizes.cu
-Invoking: NVCC Compiler
-/opt/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_50,code=sm_50  -odir "src" -M -o "src/ComutacaoMatrizes.d" "../src/ComutacaoMatrizes.cu"
-/opt/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_50,code=compute_50 -gencode arch=compute_50,code=sm_50  -x cu -o  "src/ComutacaoMatrizes.o" "../src/ComutacaoMatrizes.cu"
-../src/ComutacaoMatrizes.cu(163): error: identifier "dev_matrix" is undefined
-
-../src/ComutacaoMatrizes.cu(167): error: identifier "dev_matrix" is undefined
-
-2 errors detected in the compilation of "/tmp/tmpxft_0000550e_00000000-6_ComutacaoMatrizes.cpp1.ii".
-make: *** [src/subdir.mk:21: src/ComutacaoMatrizes.o] Error 1
-01:23:07 **** Incremental Build of configuration Debug for project ComutacaoMatrizes ****
-make all 
-Building file: ../src/ComutacaoMatrizes.cu
-Invoking: NVCC Compiler
-/opt/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_50,code=sm_50  -odir "src" -M -o "src/ComutacaoMatrizes.d" "../src/ComutacaoMatrizes.cu"
-/opt/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_50,code=compute_50 -gencode arch=compute_50,code=sm_50  -x cu -o  "src/ComutacaoMatrizes.o" "../src/ComutacaoMatrizes.cu"
-../src/ComutacaoMatrizes.cu(160): error: identifier "dev_matrix" is undefined
-
-../src/ComutacaoMatrizes.cu(164): error: identifier "dev_matrix" is undefined
-
-2 errors detected in the compilation of "/tmp/tmpxft_00006172_00000000-6_ComutacaoMatrizes.cpp1.ii".
-make: *** [src/subdir.mk:21: src/ComutacaoMatrizes.o] Error 1
-01:25:23 **** Incremental Build of configuration Debug for project ComutacaoMatrizes ****
-make all 
-Building file: ../src/ComutacaoMatrizes.cu
-Invoking: NVCC Compiler
-/opt/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_50,code=sm_50  -odir "src" -M -o "src/ComutacaoMatrizes.d" "../src/ComutacaoMatrizes.cu"
-/opt/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_50,code=compute_50 -gencode arch=compute_50,code=sm_50  -x cu -o  "src/ComutacaoMatrizes.o" "../src/ComutacaoMatrizes.cu"
-../src/ComutacaoMatrizes.cu(166): error: identifier "dev_matrix" is undefined
-
-1 error detected in the compilation of "/tmp/tmpxft_0000626f_00000000-6_ComutacaoMatrizes.cpp1.ii".
-make: *** [src/subdir.mk:21: src/ComutacaoMatrizes.o] Error 1
-01:25:43 **** Incremental Build of configuration Debug for project ComutacaoMatrizes ****
-make all 
-Building file: ../src/ComutacaoMatrizes.cu
-Invoking: NVCC Compiler
-/opt/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_50,code=sm_50  -odir "src" -M -o "src/ComutacaoMatrizes.d" "../src/ComutacaoMatrizes.cu"
-/opt/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_50,code=compute_50 -gencode arch=compute_50,code=sm_50  -x cu -o  "src/ComutacaoMatrizes.o" "../src/ComutacaoMatrizes.cu"
-ptxas fatal   : Unresolved extern function 'cudaFree'
-make: *** [src/subdir.mk:21: src/ComutacaoMatrizes.o] Error 255
-01:32:16 **** Build of configuration Debug for project ComutacaoMatrizes2 ****
-make all 
-Building file: ../src/ComutacaoMatrizes2.cu
-Invoking: NVCC Compiler
-/opt/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_50,code=sm_50  -odir "src" -M -o "src/ComutacaoMatrizes2.d" "../src/ComutacaoMatrizes2.cu"
-/opt/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_50,code=compute_50 -gencode arch=compute_50,code=sm_50  -x cu -o  "src/ComutacaoMatrizes2.o" "../src/ComutacaoMatrizes2.cu"
-Finished building: ../src/ComutacaoMatrizes2.cu
+00:21:15 **** Clean-only build of configuration Debug for project Aula8_InteroperabilidadeBasica ****
+make clean 
+rm -rf  ./src/Aula8_InteroperabilidadeBasica.o  ./src/Aula8_InteroperabilidadeBasica.d  Aula8_InteroperabilidadeBasica
  
-Building target: ComutacaoMatrizes2
+00:21:20 **** Build of configuration Debug for project Aula8_InteroperabilidadeBasica ****
+make all 
+Building file: ../src/Aula8_InteroperabilidadeBasica.cu
+Invoking: NVCC Compiler
+/opt/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_50,code=sm_50  -odir "src" -M -o "src/Aula8_InteroperabilidadeBasica.d" "../src/Aula8_InteroperabilidadeBasica.cu"
+/opt/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_50,code=compute_50 -gencode arch=compute_50,code=sm_50  -x cu -o  "src/Aula8_InteroperabilidadeBasica.o" "../src/Aula8_InteroperabilidadeBasica.cu"
+../src/../../common/cpu_bitmap.h(49): warning: conversion from a string literal to "char *" is deprecated
+
+../src/../../common/cpu_bitmap.h(49): warning: conversion from a string literal to "char *" is deprecated
+
+Finished building: ../src/Aula8_InteroperabilidadeBasica.cu
+ 
+Building target: Aula8_InteroperabilidadeBasica
 Invoking: NVCC Linker
-/opt/cuda/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_50,code=compute_50 -gencode arch=compute_50,code=sm_50 -link -o  "ComutacaoMatrizes2"  ./src/ComutacaoMatrizes2.o   
-Finished building target: ComutacaoMatrizes2
+/opt/cuda/bin/nvcc --cudart static -lGL -lGLU -lglut  --relocatable-device-code=false -gencode arch=compute_50,code=compute_50 -gencode arch=compute_50,code=sm_50 -link -o  "Aula8_InteroperabilidadeBasica"  ./src/Aula8_InteroperabilidadeBasica.o   
+Finished building target: Aula8_InteroperabilidadeBasica
  
-01:32:19 **** Incremental Build of configuration Debug for project ComutacaoMatrizes2 ****
+00:21:40 **** Incremental Build of configuration Debug for project Aula8_InteroperabilidadeBasica ****
 make all 
 make: Nothing to be done for 'all'.
-01:36:44 **** Incremental Build of configuration Debug for project ComutacaoMatrizes2 ****
+00:23:49 **** Build of configuration Debug for project Aula8_InteroperabilidadeOndas ****
 make all 
-Building file: ../src/ComutacaoMatrizes2.cu
+Building file: ../src/Aula8_InteroperabilidadeOndas.cu
 Invoking: NVCC Compiler
-/opt/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_50,code=sm_50  -odir "src" -M -o "src/ComutacaoMatrizes2.d" "../src/ComutacaoMatrizes2.cu"
-/opt/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_50,code=compute_50 -gencode arch=compute_50,code=sm_50  -x cu -o  "src/ComutacaoMatrizes2.o" "../src/ComutacaoMatrizes2.cu"
-ptxas fatal   : Unresolved extern function 'cudaFree'
-make: *** [src/subdir.mk:21: src/ComutacaoMatrizes2.o] Error 255
-01:37:25 **** Incremental Build of configuration Debug for project ComutacaoMatrizes2 ****
-make all 
-Building file: ../src/ComutacaoMatrizes2.cu
-Invoking: NVCC Compiler
-/opt/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_50,code=sm_50  -odir "src" -M -o "src/ComutacaoMatrizes2.d" "../src/ComutacaoMatrizes2.cu"
-/opt/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_50,code=compute_50 -gencode arch=compute_50,code=sm_50  -x cu -o  "src/ComutacaoMatrizes2.o" "../src/ComutacaoMatrizes2.cu"
-ptxas fatal   : Unresolved extern function 'cudaFree'
-make: *** [src/subdir.mk:21: src/ComutacaoMatrizes2.o] Error 255
-01:39:42 **** Incremental Build of configuration Debug for project ComutacaoMatrizes2 ****
-make all 
-Building file: ../src/ComutacaoMatrizes2.cu
-Invoking: NVCC Compiler
-/opt/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_50,code=sm_50  -odir "src" -M -o "src/ComutacaoMatrizes2.d" "../src/ComutacaoMatrizes2.cu"
-/opt/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_50,code=compute_50 -gencode arch=compute_50,code=sm_50  -x cu -o  "src/ComutacaoMatrizes2.o" "../src/ComutacaoMatrizes2.cu"
-../src/ComutacaoMatrizes2.cu(133): warning: variable "row" was declared but never referenced
-
-../src/ComutacaoMatrizes2.cu(133): warning: variable "row" was declared but never referenced
-
-Finished building: ../src/ComutacaoMatrizes2.cu
+/opt/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_50,code=sm_50  -odir "src" -M -o "src/Aula8_InteroperabilidadeOndas.d" "../src/Aula8_InteroperabilidadeOndas.cu"
+/opt/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_50,code=compute_50 -gencode arch=compute_50,code=sm_50  -x cu -o  "src/Aula8_InteroperabilidadeOndas.o" "../src/Aula8_InteroperabilidadeOndas.cu"
+Finished building: ../src/Aula8_InteroperabilidadeOndas.cu
  
-Building target: ComutacaoMatrizes2
+Building target: Aula8_InteroperabilidadeOndas
 Invoking: NVCC Linker
-/opt/cuda/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_50,code=compute_50 -gencode arch=compute_50,code=sm_50 -link -o  "ComutacaoMatrizes2"  ./src/ComutacaoMatrizes2.o   
-Finished building target: ComutacaoMatrizes2
+/opt/cuda/bin/nvcc --cudart static -lGL -lGLU -lglut  --relocatable-device-code=false -gencode arch=compute_50,code=compute_50 -gencode arch=compute_50,code=sm_50 -link -o  "Aula8_InteroperabilidadeOndas"  ./src/Aula8_InteroperabilidadeOndas.o   
+Finished building target: Aula8_InteroperabilidadeOndas
  
-01:40:58 **** Incremental Build of configuration Debug for project ComutacaoMatrizes ****
+00:23:51 **** Incremental Build of configuration Debug for project Aula8_InteroperabilidadeOndas ****
 make all 
-Building file: ../src/ComutacaoMatrizes.cu
-Invoking: NVCC Compiler
-/opt/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_50,code=sm_50  -odir "src" -M -o "src/ComutacaoMatrizes.d" "../src/ComutacaoMatrizes.cu"
-/opt/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_50,code=compute_50 -gencode arch=compute_50,code=sm_50  -x cu -o  "src/ComutacaoMatrizes.o" "../src/ComutacaoMatrizes.cu"
-ptxas fatal   : Unresolved extern function 'cudaFree'
-make: *** [src/subdir.mk:21: src/ComutacaoMatrizes.o] Error 255
-01:41:16 **** Incremental Build of configuration Debug for project ComutacaoMatrizes ****
+make: Nothing to be done for 'all'.
+00:24:18 **** Incremental Build of configuration Debug for project Aula8_InteroperabilidadeOndas ****
 make all 
-Building file: ../src/ComutacaoMatrizes.cu
+Building file: ../src/Aula8_InteroperabilidadeOndas.cu
 Invoking: NVCC Compiler
-/opt/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_50,code=sm_50  -odir "src" -M -o "src/ComutacaoMatrizes.d" "../src/ComutacaoMatrizes.cu"
-/opt/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_50,code=compute_50 -gencode arch=compute_50,code=sm_50  -x cu -o  "src/ComutacaoMatrizes.o" "../src/ComutacaoMatrizes.cu"
-../src/ComutacaoMatrizes.cu(131): warning: variable "row" was declared but never referenced
+/opt/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_50,code=sm_50  -odir "src" -M -o "src/Aula8_InteroperabilidadeOndas.d" "../src/Aula8_InteroperabilidadeOndas.cu"
+/opt/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_50,code=compute_50 -gencode arch=compute_50,code=sm_50  -x cu -o  "src/Aula8_InteroperabilidadeOndas.o" "../src/Aula8_InteroperabilidadeOndas.cu"
+../src/../../common/gpu_anim.h(61): warning: conversion from a string literal to "char *" is deprecated
 
-../src/ComutacaoMatrizes.cu(131): warning: variable "row" was declared but never referenced
+../src/../../common/gpu_anim.h(61): warning: conversion from a string literal to "char *" is deprecated
 
-Finished building: ../src/ComutacaoMatrizes.cu
+Finished building: ../src/Aula8_InteroperabilidadeOndas.cu
  
-Building target: ComutacaoMatrizes
+Building target: Aula8_InteroperabilidadeOndas
 Invoking: NVCC Linker
-/opt/cuda/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_50,code=compute_50 -gencode arch=compute_50,code=sm_50 -link -o  "ComutacaoMatrizes"  ./src/ComutacaoMatrizes.o   
-Finished building target: ComutacaoMatrizes
+/opt/cuda/bin/nvcc --cudart static -lGL -lGLU -lglut  --relocatable-device-code=false -gencode arch=compute_50,code=compute_50 -gencode arch=compute_50,code=sm_50 -link -o  "Aula8_InteroperabilidadeOndas"  ./src/Aula8_InteroperabilidadeOndas.o   
+Finished building target: Aula8_InteroperabilidadeOndas
  
-01:41:21 **** Incremental Build of configuration Debug for project ComutacaoMatrizes ****
+00:24:21 **** Incremental Build of configuration Debug for project Aula8_InteroperabilidadeOndas ****
+make all 
+make: Nothing to be done for 'all'.
+00:31:09 **** Incremental Build of configuration Debug for project Aula8_InteroperabilidadeOndas ****
+make all 
+Building file: ../src/Aula8_InteroperabilidadeOndas.cu
+Invoking: NVCC Compiler
+/opt/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_50,code=sm_50  -odir "src" -M -o "src/Aula8_InteroperabilidadeOndas.d" "../src/Aula8_InteroperabilidadeOndas.cu"
+/opt/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_50,code=compute_50 -gencode arch=compute_50,code=sm_50  -x cu -o  "src/Aula8_InteroperabilidadeOndas.o" "../src/Aula8_InteroperabilidadeOndas.cu"
+../src/../../common/gpu_anim.h(61): warning: conversion from a string literal to "char *" is deprecated
+
+../src/../../common/gpu_anim.h(61): warning: conversion from a string literal to "char *" is deprecated
+
+Finished building: ../src/Aula8_InteroperabilidadeOndas.cu
+ 
+Building target: Aula8_InteroperabilidadeOndas
+Invoking: NVCC Linker
+/opt/cuda/bin/nvcc --cudart static -lGL -lGLU -lglut  --relocatable-device-code=false -gencode arch=compute_50,code=compute_50 -gencode arch=compute_50,code=sm_50 -link -o  "Aula8_InteroperabilidadeOndas"  ./src/Aula8_InteroperabilidadeOndas.o   
+Finished building target: Aula8_InteroperabilidadeOndas
+ 
+01:25:42 **** Incremental Build of configuration Debug for project Aula8_InteroperabilidadeOndas ****
+make all 
+make: Nothing to be done for 'all'.
+01:27:00 **** Build of configuration Debug for project Aula8_InteroperabilidadeTransferenciaCalor ****
+make all 
+Building file: ../src/Aula8_InteroperabilidadeTransferenciaCalor.cu
+Invoking: NVCC Compiler
+/opt/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_50,code=sm_50  -odir "src" -M -o "src/Aula8_InteroperabilidadeTransferenciaCalor.d" "../src/Aula8_InteroperabilidadeTransferenciaCalor.cu"
+/opt/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_50,code=compute_50 -gencode arch=compute_50,code=sm_50  -x cu -o  "src/Aula8_InteroperabilidadeTransferenciaCalor.o" "../src/Aula8_InteroperabilidadeTransferenciaCalor.cu"
+Finished building: ../src/Aula8_InteroperabilidadeTransferenciaCalor.cu
+ 
+Building target: Aula8_InteroperabilidadeTransferenciaCalor
+Invoking: NVCC Linker
+/opt/cuda/bin/nvcc --cudart static -lGL -lGLU -lglut  --relocatable-device-code=false -gencode arch=compute_50,code=compute_50 -gencode arch=compute_50,code=sm_50 -link -o  "Aula8_InteroperabilidadeTransferenciaCalor"  ./src/Aula8_InteroperabilidadeTransferenciaCalor.o   
+Finished building target: Aula8_InteroperabilidadeTransferenciaCalor
+ 
+01:27:02 **** Incremental Build of configuration Debug for project Aula8_InteroperabilidadeTransferenciaCalor ****
+make all 
+make: Nothing to be done for 'all'.
+01:27:38 **** Incremental Build of configuration Debug for project Aula8_InteroperabilidadeTransferenciaCalor ****
+make all 
+Building file: ../src/Aula8_InteroperabilidadeTransferenciaCalor.cu
+Invoking: NVCC Compiler
+/opt/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_50,code=sm_50  -odir "src" -M -o "src/Aula8_InteroperabilidadeTransferenciaCalor.d" "../src/Aula8_InteroperabilidadeTransferenciaCalor.cu"
+/opt/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_50,code=compute_50 -gencode arch=compute_50,code=sm_50  -x cu -o  "src/Aula8_InteroperabilidadeTransferenciaCalor.o" "../src/Aula8_InteroperabilidadeTransferenciaCalor.cu"
+../src/../../common/gpu_anim.h(61): warning: conversion from a string literal to "char *" is deprecated
+
+../src/../../common/gpu_anim.h(61): warning: conversion from a string literal to "char *" is deprecated
+
+Finished building: ../src/Aula8_InteroperabilidadeTransferenciaCalor.cu
+ 
+Building target: Aula8_InteroperabilidadeTransferenciaCalor
+Invoking: NVCC Linker
+/opt/cuda/bin/nvcc --cudart static -lGL -lGLU -lglut  --relocatable-device-code=false -gencode arch=compute_50,code=compute_50 -gencode arch=compute_50,code=sm_50 -link -o  "Aula8_InteroperabilidadeTransferenciaCalor"  ./src/Aula8_InteroperabilidadeTransferenciaCalor.o   
+Finished building target: Aula8_InteroperabilidadeTransferenciaCalor
+ 
+01:34:37 **** Build of configuration Debug for project Aula9_HistogramaSharedMemory ****
+make all 
+Building file: ../src/Aula9_HistogramaSharedMemory.cu
+Invoking: NVCC Compiler
+/opt/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_50,code=sm_50  -odir "src" -M -o "src/Aula9_HistogramaSharedMemory.d" "../src/Aula9_HistogramaSharedMemory.cu"
+/opt/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_50,code=compute_50 -gencode arch=compute_50,code=sm_50  -x cu -o  "src/Aula9_HistogramaSharedMemory.o" "../src/Aula9_HistogramaSharedMemory.cu"
+Finished building: ../src/Aula9_HistogramaSharedMemory.cu
+ 
+Building target: Aula9_HistogramaSharedMemory
+Invoking: NVCC Linker
+/opt/cuda/bin/nvcc --cudart static -lGL -lGLU -lglut  --relocatable-device-code=false -gencode arch=compute_50,code=compute_50 -gencode arch=compute_50,code=sm_50 -link -o  "Aula9_HistogramaSharedMemory"  ./src/Aula9_HistogramaSharedMemory.o   
+Finished building target: Aula9_HistogramaSharedMemory
+ 
+01:34:39 **** Incremental Build of configuration Debug for project Aula9_HistogramaSharedMemory ****
+make all 
+make: Nothing to be done for 'all'.
+01:35:09 **** Incremental Build of configuration Debug for project Aula9_HistogramaSharedMemory ****
+make all 
+Building file: ../src/Aula9_HistogramaSharedMemory.cu
+Invoking: NVCC Compiler
+/opt/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_50,code=sm_50  -odir "src" -M -o "src/Aula9_HistogramaSharedMemory.d" "../src/Aula9_HistogramaSharedMemory.cu"
+/opt/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_50,code=compute_50 -gencode arch=compute_50,code=sm_50  -x cu -o  "src/Aula9_HistogramaSharedMemory.o" "../src/Aula9_HistogramaSharedMemory.cu"
+Finished building: ../src/Aula9_HistogramaSharedMemory.cu
+ 
+Building target: Aula9_HistogramaSharedMemory
+Invoking: NVCC Linker
+/opt/cuda/bin/nvcc --cudart static -lGL -lGLU -lglut  --relocatable-device-code=false -gencode arch=compute_50,code=compute_50 -gencode arch=compute_50,code=sm_50 -link -o  "Aula9_HistogramaSharedMemory"  ./src/Aula9_HistogramaSharedMemory.o   
+Finished building target: Aula9_HistogramaSharedMemory
+ 
+01:45:19 **** Incremental Build of configuration Debug for project Aula9_HistogramaSharedMemory ****
+make all 
+make: Nothing to be done for 'all'.
+01:45:40 **** Incremental Build of configuration Debug for project Aula9_HistogramaSharedMemory ****
+make all 
+Building file: ../src/Aula9_HistogramaSharedMemory.cu
+Invoking: NVCC Compiler
+/opt/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_50,code=sm_50  -odir "src" -M -o "src/Aula9_HistogramaSharedMemory.d" "../src/Aula9_HistogramaSharedMemory.cu"
+/opt/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_50,code=compute_50 -gencode arch=compute_50,code=sm_50  -x cu -o  "src/Aula9_HistogramaSharedMemory.o" "../src/Aula9_HistogramaSharedMemory.cu"
+Finished building: ../src/Aula9_HistogramaSharedMemory.cu
+ 
+Building target: Aula9_HistogramaSharedMemory
+Invoking: NVCC Linker
+/opt/cuda/bin/nvcc --cudart static -lGL -lGLU -lglut  --relocatable-device-code=false -gencode arch=compute_50,code=compute_50 -gencode arch=compute_50,code=sm_50 -link -o  "Aula9_HistogramaSharedMemory"  ./src/Aula9_HistogramaSharedMemory.o   
+Finished building target: Aula9_HistogramaSharedMemory
+ 
+01:49:37 **** Incremental Build of configuration Debug for project Aula9_HistogramaSharedMemory ****
+make all 
+Building file: ../src/Aula9_HistogramaSharedMemory.cu
+Invoking: NVCC Compiler
+/opt/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_50,code=sm_50  -odir "src" -M -o "src/Aula9_HistogramaSharedMemory.d" "../src/Aula9_HistogramaSharedMemory.cu"
+/opt/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_50,code=compute_50 -gencode arch=compute_50,code=sm_50  -x cu -o  "src/Aula9_HistogramaSharedMemory.o" "../src/Aula9_HistogramaSharedMemory.cu"
+Finished building: ../src/Aula9_HistogramaSharedMemory.cu
+ 
+Building target: Aula9_HistogramaSharedMemory
+Invoking: NVCC Linker
+/opt/cuda/bin/nvcc --cudart static -lGL -lGLU -lglut  --relocatable-device-code=false -gencode arch=compute_50,code=compute_50 -gencode arch=compute_50,code=sm_50 -link -o  "Aula9_HistogramaSharedMemory"  ./src/Aula9_HistogramaSharedMemory.o   
+Finished building target: Aula9_HistogramaSharedMemory
+ 
+01:51:19 **** Build of configuration Debug for project Aula10_Exemplo1 ****
+make all 
+Building file: ../src/Aula10_Exemplo1.cu
+Invoking: NVCC Compiler
+/opt/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_50,code=sm_50  -odir "src" -M -o "src/Aula10_Exemplo1.d" "../src/Aula10_Exemplo1.cu"
+/opt/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_50,code=compute_50 -gencode arch=compute_50,code=sm_50  -x cu -o  "src/Aula10_Exemplo1.o" "../src/Aula10_Exemplo1.cu"
+Finished building: ../src/Aula10_Exemplo1.cu
+ 
+Building target: Aula10_Exemplo1
+Invoking: NVCC Linker
+/opt/cuda/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_50,code=compute_50 -gencode arch=compute_50,code=sm_50 -link -o  "Aula10_Exemplo1"  ./src/Aula10_Exemplo1.o   
+Finished building target: Aula10_Exemplo1
+ 
+01:51:21 **** Incremental Build of configuration Debug for project Aula10_Exemplo1 ****
+make all 
+make: Nothing to be done for 'all'.
+01:53:12 **** Build of configuration Debug for project Aula10_DoubleStream ****
+make all 
+Building file: ../src/Aula10_DoubleStream.cu
+Invoking: NVCC Compiler
+/opt/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_50,code=sm_50  -odir "src" -M -o "src/Aula10_DoubleStream.d" "../src/Aula10_DoubleStream.cu"
+/opt/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_50,code=compute_50 -gencode arch=compute_50,code=sm_50  -x cu -o  "src/Aula10_DoubleStream.o" "../src/Aula10_DoubleStream.cu"
+Finished building: ../src/Aula10_DoubleStream.cu
+ 
+Building target: Aula10_DoubleStream
+Invoking: NVCC Linker
+/opt/cuda/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_50,code=compute_50 -gencode arch=compute_50,code=sm_50 -link -o  "Aula10_DoubleStream"  ./src/Aula10_DoubleStream.o   
+Finished building target: Aula10_DoubleStream
+ 
+01:53:14 **** Incremental Build of configuration Debug for project Aula10_DoubleStream ****
+make all 
+make: Nothing to be done for 'all'.
+01:53:35 **** Incremental Build of configuration Debug for project Aula10_DoubleStream ****
+make all 
+make: Nothing to be done for 'all'.
+01:55:59 **** Incremental Build of configuration Debug for project Aula10_DoubleStream ****
+make all 
+make: Nothing to be done for 'all'.
+01:56:01 **** Incremental Build of configuration Debug for project Aula10_DoubleStream ****
+make all 
+make: Nothing to be done for 'all'.
+01:56:04 **** Incremental Build of configuration Debug for project Aula10_DoubleStream ****
+make all 
+make: Nothing to be done for 'all'.
+01:56:06 **** Incremental Build of configuration Debug for project Aula10_DoubleStream ****
+make all 
+make: Nothing to be done for 'all'.
+01:56:09 **** Incremental Build of configuration Debug for project Aula10_DoubleStream ****
+make all 
+make: Nothing to be done for 'all'.
+01:56:13 **** Incremental Build of configuration Debug for project Aula10_DoubleStream ****
+make all 
+make: Nothing to be done for 'all'.
+01:56:15 **** Incremental Build of configuration Debug for project Aula10_DoubleStream ****
+make all 
+make: Nothing to be done for 'all'.
+01:56:30 **** Incremental Build of configuration Debug for project Aula10_DoubleStream ****
+make all 
+Building file: ../src/Aula10_DoubleStream.cu
+Invoking: NVCC Compiler
+/opt/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_50,code=sm_50  -odir "src" -M -o "src/Aula10_DoubleStream.d" "../src/Aula10_DoubleStream.cu"
+/opt/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_50,code=compute_50 -gencode arch=compute_50,code=sm_50  -x cu -o  "src/Aula10_DoubleStream.o" "../src/Aula10_DoubleStream.cu"
+Finished building: ../src/Aula10_DoubleStream.cu
+ 
+Building target: Aula10_DoubleStream
+Invoking: NVCC Linker
+/opt/cuda/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_50,code=compute_50 -gencode arch=compute_50,code=sm_50 -link -o  "Aula10_DoubleStream"  ./src/Aula10_DoubleStream.o   
+Finished building target: Aula10_DoubleStream
+ 
+01:56:35 **** Incremental Build of configuration Debug for project Aula10_DoubleStream ****
+make all 
+make: Nothing to be done for 'all'.
+01:56:38 **** Incremental Build of configuration Debug for project Aula10_DoubleStream ****
+make all 
+make: Nothing to be done for 'all'.
+01:56:40 **** Incremental Build of configuration Debug for project Aula10_DoubleStream ****
+make all 
+make: Nothing to be done for 'all'.
+02:00:24 **** Incremental Build of configuration Debug for project Aula10_DoubleStream ****
+make all 
+make: Nothing to be done for 'all'.
+02:00:27 **** Incremental Build of configuration Debug for project Aula10_DoubleStream ****
+make all 
+make: Nothing to be done for 'all'.
+02:00:30 **** Incremental Build of configuration Debug for project Aula10_DoubleStream ****
+make all 
+make: Nothing to be done for 'all'.
+02:00:32 **** Incremental Build of configuration Debug for project Aula10_DoubleStream ****
+make all 
+make: Nothing to be done for 'all'.
+02:00:34 **** Incremental Build of configuration Debug for project Aula10_DoubleStream ****
+make all 
+make: Nothing to be done for 'all'.
+02:00:36 **** Incremental Build of configuration Debug for project Aula10_DoubleStream ****
+make all 
+make: Nothing to be done for 'all'.
+02:00:38 **** Incremental Build of configuration Debug for project Aula10_DoubleStream ****
+make all 
+make: Nothing to be done for 'all'.
+02:00:40 **** Incremental Build of configuration Debug for project Aula10_DoubleStream ****
+make all 
+make: Nothing to be done for 'all'.
+02:04:45 **** Build of configuration Debug for project Aula11_DoubleStreamOtimizado ****
+make all 
+Building file: ../src/Aula11_DoubleStreamOtimizado.cu
+Invoking: NVCC Compiler
+/opt/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_50,code=sm_50  -odir "src" -M -o "src/Aula11_DoubleStreamOtimizado.d" "../src/Aula11_DoubleStreamOtimizado.cu"
+/opt/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_50,code=compute_50 -gencode arch=compute_50,code=sm_50  -x cu -o  "src/Aula11_DoubleStreamOtimizado.o" "../src/Aula11_DoubleStreamOtimizado.cu"
+Finished building: ../src/Aula11_DoubleStreamOtimizado.cu
+ 
+Building target: Aula11_DoubleStreamOtimizado
+Invoking: NVCC Linker
+/opt/cuda/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_50,code=compute_50 -gencode arch=compute_50,code=sm_50 -link -o  "Aula11_DoubleStreamOtimizado"  ./src/Aula11_DoubleStreamOtimizado.o   
+Finished building target: Aula11_DoubleStreamOtimizado
+ 
+02:04:47 **** Incremental Build of configuration Debug for project Aula11_DoubleStreamOtimizado ****
+make all 
+make: Nothing to be done for 'all'.
+02:05:24 **** Incremental Build of configuration Debug for project Aula11_DoubleStreamOtimizado ****
+make all 
+Building file: ../src/Aula11_DoubleStreamOtimizado.cu
+Invoking: NVCC Compiler
+/opt/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_50,code=sm_50  -odir "src" -M -o "src/Aula11_DoubleStreamOtimizado.d" "../src/Aula11_DoubleStreamOtimizado.cu"
+/opt/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_50,code=compute_50 -gencode arch=compute_50,code=sm_50  -x cu -o  "src/Aula11_DoubleStreamOtimizado.o" "../src/Aula11_DoubleStreamOtimizado.cu"
+Finished building: ../src/Aula11_DoubleStreamOtimizado.cu
+ 
+Building target: Aula11_DoubleStreamOtimizado
+Invoking: NVCC Linker
+/opt/cuda/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_50,code=compute_50 -gencode arch=compute_50,code=sm_50 -link -o  "Aula11_DoubleStreamOtimizado"  ./src/Aula11_DoubleStreamOtimizado.o   
+Finished building target: Aula11_DoubleStreamOtimizado
+ 
+02:05:29 **** Incremental Build of configuration Debug for project Aula11_DoubleStreamOtimizado ****
+make all 
+make: Nothing to be done for 'all'.
+02:05:31 **** Incremental Build of configuration Debug for project Aula11_DoubleStreamOtimizado ****
+make all 
+make: Nothing to be done for 'all'.
+02:11:05 **** Build of configuration Debug for project Aula12_ProdutoInternoZeroCopy ****
+make all 
+Building file: ../src/Aula12_ProdutoInternoZeroCopy.cu
+Invoking: NVCC Compiler
+/opt/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_50,code=sm_50  -odir "src" -M -o "src/Aula12_ProdutoInternoZeroCopy.d" "../src/Aula12_ProdutoInternoZeroCopy.cu"
+/opt/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_50,code=compute_50 -gencode arch=compute_50,code=sm_50  -x cu -o  "src/Aula12_ProdutoInternoZeroCopy.o" "../src/Aula12_ProdutoInternoZeroCopy.cu"
+Finished building: ../src/Aula12_ProdutoInternoZeroCopy.cu
+ 
+Building target: Aula12_ProdutoInternoZeroCopy
+Invoking: NVCC Linker
+/opt/cuda/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_50,code=compute_50 -gencode arch=compute_50,code=sm_50 -link -o  "Aula12_ProdutoInternoZeroCopy"  ./src/Aula12_ProdutoInternoZeroCopy.o   
+Finished building target: Aula12_ProdutoInternoZeroCopy
+ 
+02:11:07 **** Incremental Build of configuration Debug for project Aula12_ProdutoInternoZeroCopy ****
+make all 
+make: Nothing to be done for 'all'.
+02:11:31 **** Incremental Build of configuration Debug for project Aula12_ProdutoInternoZeroCopy ****
+make all 
+Building file: ../src/Aula12_ProdutoInternoZeroCopy.cu
+Invoking: NVCC Compiler
+/opt/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_50,code=sm_50  -odir "src" -M -o "src/Aula12_ProdutoInternoZeroCopy.d" "../src/Aula12_ProdutoInternoZeroCopy.cu"
+/opt/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_50,code=compute_50 -gencode arch=compute_50,code=sm_50  -x cu -o  "src/Aula12_ProdutoInternoZeroCopy.o" "../src/Aula12_ProdutoInternoZeroCopy.cu"
+Finished building: ../src/Aula12_ProdutoInternoZeroCopy.cu
+ 
+Building target: Aula12_ProdutoInternoZeroCopy
+Invoking: NVCC Linker
+/opt/cuda/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_50,code=compute_50 -gencode arch=compute_50,code=sm_50 -link -o  "Aula12_ProdutoInternoZeroCopy"  ./src/Aula12_ProdutoInternoZeroCopy.o   
+Finished building target: Aula12_ProdutoInternoZeroCopy
+ 
+02:11:56 **** Incremental Build of configuration Debug for project Aula12_ProdutoInternoZeroCopy ****
+make all 
+make: Nothing to be done for 'all'.
+02:12:06 **** Incremental Build of configuration Debug for project Aula12_ProdutoInternoZeroCopy ****
 make all 
 make: Nothing to be done for 'all'.

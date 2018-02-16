@@ -59,17 +59,13 @@ int **getFilledMatrix(int rows, int cols) {
 int **allocateMatrix(int rows, int cols) {
 
     // allocate rows, each row is a pointer to int
-    int **matrix = (int **)malloc(rows * sizeof(int *));
+    int **matrix = (int **) malloc(rows * sizeof(int *));
 
     // for each row allocate cols ints
     int row;
     for (row = 0; row < rows; row++) {
-        matrix[row] = (int *)malloc(cols * sizeof(int));
+        matrix[row] = (int *) malloc(cols * sizeof(int));
     }
-
-    matrix[0][0] = 34;
-
-    printf("\nValor34: %d", matrix[0][0]);
 
     return matrix;
 }

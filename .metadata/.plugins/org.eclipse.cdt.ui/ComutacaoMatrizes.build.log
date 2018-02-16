@@ -1,6 +1,20 @@
-01:41:21 **** Incremental Build of configuration Debug for project ComutacaoMatrizes ****
+11:29:09 **** Incremental Build of configuration Release for project ComutacaoMatrizes ****
 make all 
-make: Nothing to be done for 'all'.
+Building file: ../src/ComutacaoMatrizes.cu
+Invoking: NVCC Compiler
+/opt/cuda/bin/nvcc -O3 -gencode arch=compute_50,code=sm_50  -odir "src" -M -o "src/ComutacaoMatrizes.d" "../src/ComutacaoMatrizes.cu"
+/opt/cuda/bin/nvcc -O3 --compile --relocatable-device-code=false -gencode arch=compute_50,code=compute_50 -gencode arch=compute_50,code=sm_50  -x cu -o  "src/ComutacaoMatrizes.o" "../src/ComutacaoMatrizes.cu"
+../src/ComutacaoMatrizes.cu(215): warning: missing return statement at end of non-void function "getTransposedMatrix"
 
-01:41:22 Build Finished (took 57ms)
+../src/ComutacaoMatrizes.cu(215): warning: missing return statement at end of non-void function "getTransposedMatrix"
+
+Finished building: ../src/ComutacaoMatrizes.cu
+ 
+Building target: ComutacaoMatrizes
+Invoking: NVCC Linker
+/opt/cuda/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_50,code=compute_50 -gencode arch=compute_50,code=sm_50 -link -o  "ComutacaoMatrizes"  ./src/ComutacaoMatrizes.o   
+Finished building target: ComutacaoMatrizes
+ 
+
+11:29:16 Build Finished (took 7s.627ms)
 

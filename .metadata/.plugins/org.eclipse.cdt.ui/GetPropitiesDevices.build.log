@@ -1,6 +1,6 @@
-16:39:40 **** Incremental Build of configuration Debug for project GetPropitiesDevices ****
+20:56:05 **** Incremental Build of configuration Debug for project GetPropitiesDevices ****
 make all 
 make: Nothing to be done for 'all'.
 
-16:39:40 Build Finished (took 369ms)
+20:56:05 Build Finished (took 61ms)
 
